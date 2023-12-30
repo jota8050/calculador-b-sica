@@ -1,7 +1,7 @@
 print('----- CALCULADORA INTELIGENTE -----')
 print('=-=' * 13)
-valor1 = int(input('Primeiro valor: '))
-valor2 = int(input('Segundo valor: '))
+valor1 = float(input('Primeiro valor: '))
+valor2 = float(input('Segundo valor: '))
 operacao = 0
 while operacao != 6:
 
@@ -21,13 +21,13 @@ while operacao != 6:
         print(f'A diferença entra {valor1} e {valor2} é = {subtracao}')
     elif operacao == 3:
         multiplicacao = valor1 * valor2
-        print(f'O resultado de {valor1} X {valor2} é = {multiplicacao}')
+        print(f'O resultado de {valor1} X {valor2} é = {multiplicacao:.2f}')
     elif operacao == 4:
         divisao = valor1 / valor2
-        print(f'O resultado de {valor1} % {valor2} é = {divisao}')
+        print(f'O resultado de {valor1} % {valor2} é = {divisao:.2f}')
     elif operacao == 5:
-        valor1 = int(input('Digite um valor: '))
-        valor2 = int(input('Digite outro valor: '))
+        valor1 = float(input('Digite um valor: '))
+        valor2 = float(input('Digite outro valor: '))
     elif operacao == 6:
         print('Finalizando....')
     else:
