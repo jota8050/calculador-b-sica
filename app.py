@@ -2,7 +2,7 @@ print('----- CALCULADORA INTELIGENTE -----')
 print('=-=' * 13)
 valor1 = float(input('Primeiro valor: '))
 valor2 = float(input('Segundo valor: '))
-# operacao = 0
+operacao = 0
 while operacao != 6:
 
     print('''     [ 1 ] Somar  
